@@ -1,0 +1,5 @@
+title: $:/plugins/linonetwo/title-caption/view/hasCaptionFilter
+tags: $:/tags/ViewTemplateTitleFilter
+list-before: $:/config/ViewTemplateTitleFilters/default
+
+[<currentTiddler>has[caption]then[$:/plugins/linonetwo/title-caption/view/useCaption]]

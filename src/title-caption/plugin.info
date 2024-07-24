@@ -1,7 +1,7 @@
 {
   "title": "$:/plugins/linonetwo/title-caption",
-  "author": "Your Name",
-  "description": "Description of this plugin",
+  "author": "LinOnetwo",
+  "description": "Display caption in title area.",
   "core-version": ">=5.1.22",
   "plugin-type": "plugin",
   "version": "0.0.1",

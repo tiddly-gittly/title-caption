@@ -1,8 +1,8 @@
 title: $:/plugins/linonetwo/title-caption/language/en-GB/
 
-Name: Unnamed Plugin
-Description: Unfilled Description
-Configs/Description: These settings let you customise the behaviour of "Unnamed Plugin" plugin.
+Name: Title Caption
+Description: Display caption in title area.
+Configs/Description: These settings let you customise the behaviour of "Title Caption" plugin.
 Configs/PluginConfigs/Caption: Plugin Configs
 Configs/XXX/Caption: XXX
 Configs/XXX/Description: XXX is XXX
