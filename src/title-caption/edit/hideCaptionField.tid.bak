@@ -1,0 +1,6 @@
+tags: $:/tags/FieldEditorFilter
+title: $:/plugins/linonetwo/title-caption/edit/captionFieldEditCascade
+list-before: $:/config/FieldEditorFilters/default
+
+[<storyTiddler>] :cascade[all[shadows+tiddlers]tag[$:/tags/EditCaptionTemplateTitleFilter]!is[draft]get[text]] +[then[]]
+<!-- This is not working, it only hide input, not hide the key. -->

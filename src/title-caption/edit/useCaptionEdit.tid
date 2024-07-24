@@ -1,0 +1,4 @@
+title: $:/plugins/linonetwo/title-caption/edit/useCaptionEdit
+code-body: yes
+
+<$edit-text tiddler=<<currentTiddler>> field="caption" focus="yes" class="tc-titlebar tc-edit-texteditor title-caption-plugin-caption-edit"/>

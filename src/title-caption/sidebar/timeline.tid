@@ -1,0 +1,4 @@
+title: $:/core/ui/sideBar/timeline
+tags: $:/tags/Macro
+
+\define timeline-title() <$transclude field="caption"><$view field="title"/></$transclude>

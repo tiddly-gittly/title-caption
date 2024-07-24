@@ -1,5 +1,6 @@
-title: $:/core/macros/lingo
 tags: $:/tags/Global
+title: $:/core/macros/lingo
+type: text/vnd.tiddlywiki
 
 <!-- //TODO: remove after https://github.com/Jermolene/TiddlyWiki5/pull/7821 is merged -->
 <!-- Note that lingo-base should end with a trailing slash character -->
