@@ -6,4 +6,18 @@ title: $:/plugins/linonetwo/title-caption/language/en-GB/Readme
 
 <<lingo Description>>
 
-Write readme here.
+Github: https://github.com/tiddly-gittly/title-caption
+
+!! Tryout
+
+!!! Auto generation
+
+With the following i-message layout, you can create entries where the `title` field is a random ID and the `caption` field is the real title.
+
+<<simple-layout-launcher>>
+
+!!! Manual creation
+
+Create a new tiddler, then add the `caption` field, or the `_is_titleless` field.
+
+Once added, you'll notice that the old "title" edit box becomes an edit box for the `caption` field, and the edit box for the `title` field is now a smaller, secondary input box.
