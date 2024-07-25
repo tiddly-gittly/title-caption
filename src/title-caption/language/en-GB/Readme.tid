@@ -8,11 +8,17 @@ title: $:/plugins/linonetwo/title-caption/language/en-GB/Readme
 
 Github: https://github.com/tiddly-gittly/title-caption
 
+!! Feature
+
+Displays the contents of the `caption` field as a title for tiddlers containing a `caption` field, or a `_is_titleless` field.
+
+When editing, the edit box for the title of said tiddler becomes an edit box for the contents of the `caption` field, and the edit box for the `title` field becomes a smaller, secondary input box.
+
 !! Tryout
 
 !!! Auto generation
 
-With the following i-message layout, you can create entries where the `title` field is a random ID and the `caption` field is the real title.
+With the following i-message layout, you can create tiddlers where the `title` field is a random ID and the `caption` field is the real title.
 
 <<simple-layout-launcher>>
 
