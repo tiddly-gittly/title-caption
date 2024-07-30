@@ -1,7 +1,9 @@
 title: $:/plugins/linonetwo/title-caption/language/zh-Hans/
 
 Name: 标题字段
-Description: 将 Caption 字段显示为标题
+Description: 将「说明文字 caption」字段显示为标题，并且可以轻松地编辑它。
+ApplyCaptionToTitle: 将说明文字应用为标题
+ApplyCaptionToTitleDescription: 将 `caption` 字段移动到 `title` 字段，覆盖原来的 `title` 字段。
 Configs/Description: 通过这些设置，您可以自定义「标题字段」插件的行为。
 Configs/PluginConfigs/Caption: 插件设置
 Configs/XXX/Caption: 配置甲

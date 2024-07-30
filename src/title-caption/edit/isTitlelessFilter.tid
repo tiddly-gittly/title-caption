@@ -1,4 +1,5 @@
 title: $:/plugins/linonetwo/title-caption/edit/isTitlelessFilter
 tags: $:/tags/EditCaptionTemplateTitleFilter
+list-before: $:/plugins/linonetwo/title-caption/edit/defaultFilter
 
 [<currentTiddler>has[_is_titleless]then[$:/plugins/linonetwo/title-caption/edit/useCaptionEdit]]

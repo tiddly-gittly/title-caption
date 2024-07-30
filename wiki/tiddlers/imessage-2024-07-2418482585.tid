@@ -5,6 +5,8 @@ tags: Memo
 title: imessage-2024-07-2418482585
 type: text/vnd.tiddlywiki
 
-Test Caption
+Title is: {{!!title}}
 
 Contents...
+
+{{{[[imessage-2024-07-2418482585]] :cascade[all[shadows+tiddlers]tag[$:/tags/EditCaptionTemplateTitleFilter]!is[draft]get[text]]}}}

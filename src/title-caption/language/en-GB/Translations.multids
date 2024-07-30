@@ -1,7 +1,9 @@
 title: $:/plugins/linonetwo/title-caption/language/en-GB/
 
 Name: Title Caption
-Description: Display caption in title area.
+Description: Display caption in title area, and can easily edit it.
+ApplyCaptionToTitle: Apply caption as title
+ApplyCaptionToTitleDescription: Move `caption` field to `title`, overwrite the original `title` field.
 Configs/Description: These settings let you customise the behaviour of "Title Caption" plugin.
 Configs/PluginConfigs/Caption: Plugin Configs
 Configs/XXX/Caption: XXX

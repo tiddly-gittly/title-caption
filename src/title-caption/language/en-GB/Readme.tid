@@ -8,6 +8,10 @@ title: $:/plugins/linonetwo/title-caption/language/en-GB/Readme
 
 Github: https://github.com/tiddly-gittly/title-caption
 
+Caption means "axillary text", it may means the text underneath an image that explains the content of the image, for example, "The second from the left in the picture is Dr Lin". In TiddlyWiki, the "caption" field has been used in various cases where the original title is "Unique identifier used by the system, similar to gibberish", and should show user the human-readable "caption" field. However, by default, TiddlyWiki only displays the "caption" field for some system tiddlers, and user-created tiddlers may still display garbled-like titles.
+
+Nowadays more and more plugins automatically generate random titles and then use the "caption" field to save human-readable text, so this field is becoming more and more important. This plugin is used to ensure that user tiddlers also display the contents of this field, and can easily edit it.
+
 !! Feature
 
 Displays the contents of the `caption` field as a title for tiddlers containing a `caption` field, or a `_is_titleless` field.
