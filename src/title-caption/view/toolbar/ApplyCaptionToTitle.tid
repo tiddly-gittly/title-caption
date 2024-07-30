@@ -9,8 +9,10 @@ description: <<lingo ApplyCaptionToTitleDescription $:/plugins/linonetwo/title-c
 <$wikify name="ApplyCaptionToTitle" text="<<lingo ApplyCaptionToTitle>>" mode="inline">
   <%if [<currentTiddler>] :cascade[all[shadows+tiddlers]tag[$:/tags/EditCaptionTemplateTitleFilter]!is[draft]get[text]] +[!is[blank]] %>
     <$button tooltip=<<ApplyCaptionToTitle>> aria-label=<<ApplyCaptionToTitle>> class=<<tv-config-toolbar-class>> >
-      <$action-sendmessage $message="tm-rename-tiddler" from=<<currentTiddler>> to={{!!caption}}/>
-      <$action-setfield $tiddler=<<currentTiddler>> caption="" />
+      <$let newTitle={{!!caption}}>
+        <$action-setfield $tiddler=<<currentTiddler>> $field="caption" $value="" />
+        <$action-sendmessage $message="tm-rename-tiddler" from=<<currentTiddler>> to=<<newTitle>> />
+      </$let>
 
       <$list filter="[<tv-config-toolbar-icons>match[yes]]">
         {{$:/plugins/linonetwo/title-caption/view/toolbar/icon-caption-to-title}}
