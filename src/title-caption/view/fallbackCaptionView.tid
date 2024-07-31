@@ -1,4 +1,4 @@
-title: $:/plugins/linonetwo/title-caption/view/useCaptionView
+title: $:/plugins/linonetwo/title-caption/view/fallbackCaptionView
 
 \whitespace trim
 <h2 class="tc-title">
