@@ -1,0 +1,5 @@
+code-body: yes
+tags: $:/tags/ViewTemplateTagsFilter
+title: $:/plugins/linonetwo/edit-tags-on-view-mode/CascadeEditMode
+
+[[$:/state/edit-view-mode-tags/]addsuffix<currentTiddler>get[text]compare:string:eq[yes]then[EditMode]]

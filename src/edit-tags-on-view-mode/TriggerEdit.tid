@@ -1,0 +1,5 @@
+code-body: yes
+tags: $:/tags/ViewTemplate/Tags
+title: $:/plugins/linonetwo/edit-tags-on-view-mode/TriggerEdit
+
+<$button class="tc-btn-invisible" set={{{ [[$:/state/edit-view-mode-tags/]addsuffix<storyTiddler>] }}} setTo="yes" tooltip="add tags">{{$:/core/images/new-here-button}}</$button>

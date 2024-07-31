@@ -1,0 +1,13 @@
+code-body: yes
+title: $:/plugins/linonetwo/edit-tags-on-view-mode/EditMode
+
+\whitespace trim
+<$reveal type="nomatch" stateTitle=<<folded-state>> text="hide" tag="div" retain="yes" animate="yes">
+  <div class="tc-tags-wrapper" style="display:flex">
+    <$transclude tiddler="$:/core/ui/EditTemplate/tags"/>
+    <$button class="tc-btn-invisible" style="margin-left:1em;">
+      {{$:/core/images/done-button}}
+      <$action-deletetiddler $tiddler={{{ [[$:/state/edit-view-mode-tags/]addsuffix<storyTiddler>] }}}/>
+    </$button>
+  </div>
+</$reveal>

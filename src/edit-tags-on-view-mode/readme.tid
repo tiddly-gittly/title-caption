@@ -1,0 +1,10 @@
+title: $:/plugins/linonetwo/edit-tags-on-view-mode/readme
+type: text/vnd.tiddlywiki
+
+! edit-tags-on-view-mode
+
+Allow edit tags without enter edit mode.
+
+Forum: https://talk.tiddlywiki.org/t/any-plugin-to-edit-tag-on-view-mode/10313/7
+
+Release until https://github.com/TiddlyWiki/TiddlyWiki5/pull/8462 gets merged.

@@ -1,0 +1,9 @@
+{
+  "title": "$:/plugins/linonetwo/edit-tags-on-view-mode",
+  "name": "edit-tags-on-view-mode",
+  "author": "linonetwo",
+  "description": "Allow edit tags without enter edit mode.",
+  "plugin-type": "plugin",
+  "version": "0.0.1",
+  "list": "readme"
+}
