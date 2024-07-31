@@ -13,7 +13,6 @@ description: <<lingo ApplyCaptionToTitleDescription $:/plugins/linonetwo/title-c
         <$let oldTitle=<<currentTiddler>> newTitle={{!!caption}}>
           <$action-setfield $tiddler=<<currentTiddler>> $field="caption" $value="" />
           <$action-sendmessage $message="tm-rename-tiddler" from=<<oldTitle>> to=<<newTitle>> />
-          <$action-sendmessage $message="tm-relink-tiddler" from=<<oldTitle>> to=<<newTitle>> />
         </$let>
 
         <$list filter="[<tv-config-toolbar-icons>match[yes]]">
