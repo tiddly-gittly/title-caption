@@ -11,7 +11,7 @@ description: <<lingo ApplyCaptionToTitleDescription $:/plugins/linonetwo/title-c
     <%if [<currentTiddler>get[caption]!is[empty]] %>
       <$button tooltip=<<ApplyCaptionToTitle>> aria-label=<<ApplyCaptionToTitle>> class=<<tv-config-toolbar-class>> >
         <$let oldTitle=<<currentTiddler>> newTitle={{!!caption}}>
-          <$action-setfield $tiddler=<<currentTiddler>> $field="caption" $value="" />
+          <$action-deletefield $tiddler=<<currentTiddler>> caption/>
           <$action-sendmessage $message="tm-rename-tiddler" from=<<oldTitle>> to=<<newTitle>> />
         </$let>
 

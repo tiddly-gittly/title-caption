@@ -2,6 +2,7 @@ list-after: $:/core/ui/ViewTemplate/tags
 tags: ExcludeFromEmpty $:/tags/ViewTemplate
 title: LanguageSwitcher
 
+<%if [<currentTiddler>is[system]] %>
 <$list filter="[[$:/language]get[text]removeprefix[$:/languages/]else[en-GB]]" variable="lang">
 <$list filter="[<lang>search[zh]]">
 <$button set="$:/language" setTo="$:/languages/en-GB" style="">🇬🇧 Switch to English</$button>
@@ -10,3 +11,4 @@ title: LanguageSwitcher
 <$button set="$:/language" setTo="$:/languages/zh-Hans" style="">🇨🇳 切换至中文</$button>
 </$list>
 </$list>
+<%endif%>
