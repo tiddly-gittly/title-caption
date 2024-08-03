@@ -1,5 +1,5 @@
 title: $:/plugins/linonetwo/title-caption/view/hasCaptionFilter
 tags: $:/tags/ViewTemplateTitleFilter
-list-before: $:/config/ViewTemplateTitleFilters/default
+list-before: $:/plugins/linonetwo/title-caption/view/isTitlelessFilter
 
 [<currentTiddler>get[caption]!is[blank]then[$:/plugins/linonetwo/title-caption/view/fallbackCaptionView]]
