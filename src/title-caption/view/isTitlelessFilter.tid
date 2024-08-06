@@ -2,4 +2,4 @@ title: $:/plugins/linonetwo/title-caption/view/isTitlelessFilter
 tags: $:/tags/ViewTemplateTitleFilter
 list-before: $:/config/ViewTemplateTitleFilters/default
 
-[<currentTiddler>has[_is_titleless]then[$:/plugins/linonetwo/title-caption/view/useCaptionView]]
+[<currentTiddler>has:field[_is_titleless]then[$:/plugins/linonetwo/title-caption/view/useCaptionView]]
