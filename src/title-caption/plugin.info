@@ -4,7 +4,7 @@
   "description": "Display caption in title area.",
   "core-version": ">=5.1.22",
   "plugin-type": "plugin",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "stability": "STABILITY_2_STABLE",
   "list": "readme config tree"
 }
